@@ -4,22 +4,20 @@
 
 <head>
 
-	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; 
-	user-scalable = 0.0;" />
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; 
+	maximum-scale=1.0; user-scalable = 0.0;" />
 
-	<link href = dice.css" rel = "iPhone_stylesheet" />
-	<link href = "nodice.css" rel = "other_stylesheet" />
+	<link href = "dice.css" rel = "stylesheet" media = "only screen and 
+	(max-device-width:480px)" />
+	<link href = "nodice.css" rel = "stylesheet" media = "print, screen and 
+	(min-device-width:480px)" />
 
 	<title> Responsive Lab</title>
 
 </head>
 
-<body>
-
-	<p>
-		<div id="dice"> Dice </div> <div id="nodice"> No Dice </div>
-	</p>
-
+<body>	
+	<span class ="dice"> Dice </span> <span class="nodice"> No Dice </span>
 </body>
 
 </html>
