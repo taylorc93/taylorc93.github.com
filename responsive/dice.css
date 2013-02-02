@@ -1,3 +1,7 @@
-.dice { font-size : 36px; }
+.dice {
+	font-size : 36px; 
+}
 
-.nodice { display : none; }
+.nodice {
+	display : none;
+}
