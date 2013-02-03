@@ -5,10 +5,13 @@ body {
 }
 
 h1 {
-	font-family  : Georgia;	
-	font-size 	 : 48px;
-	border-style : double;
-	border-color : black;
+	font-family : Georgia;	
+	font-size 	: 48px;
+	border-style: double;
+	border-color: black;
+	text-align  : center;
+	margin-left : 35%;
+	margin-right: 35%;
 }
 
 h2 {
@@ -16,44 +19,37 @@ h2 {
 }
 
 p, ul, ol {
-	font-size    : 18px;
-	font-family  : serif;
-}
-
-#indexh1 {
-	margin-left  : 38%;
-	margin-right : 37%;
-}
-
-#bioh1 {
-	margin-left  : 40%;
-	margin-right : 36%;
-}
-
-#resumeh1 {
-	margin-left  : 45%;
-	margin-right : 41%;
+	font-size  : 18px;
+	font-family: serif;
 }
 
 .tab {
-	margin-left  : 5%;
+	margin-left: 5%;
 }
 
-.links {
-	margin-left  : 17%;
-	font-size 	 : 36px;
-	border-color : #000000;
-	border-style : solid;
-	font-family  : serif;
+.navbar {
+	border: 3px solid #000000;
 }
 
-#me {
-	border-style: none;
+.link {
+	font-size  : 36px;
+	font-family: serif;	
+}
+
+.bio {
+	margin-left: 15%;
+}
+.me {
+	position: relative;
+	top		: 12px;
+	left	: 2px;
 }
 
 #contactinfo {
-	margin-left : 35%;
-	margin-right: 35%;
+	font-size   : 24px;
+	text-align  : center;
+	margin-left : 30%;
+	margin-right: 30%;
 	border-style: solid;
 	border-color: black;
 }
