@@ -2,8 +2,6 @@ body {
 	color: #ffffff;
 	background-color: #99cccc;
 	background-size : 100%;
-	margin-left 	: 10%;
-	margin-right 	: 10%;
 }
 
 h1 {
@@ -13,6 +11,11 @@ h1 {
 
 h2 {
 	text-decoration : underline;
+}
+
+#home {
+	margin-left : 10%;
+	margin-right: 10%;
 }
 
 .me {
