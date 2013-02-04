@@ -20,7 +20,7 @@ h2 {
 	height   : 200px;
 	width    : 275px;
 	top 	 : -30px;
-	left 	 : -15px;
+	left 	 : -10px;
 }
 
 .navbar {
@@ -40,7 +40,7 @@ h2 {
 
 .resume {
 	position : relative;
-	left	 : 190px;
+	left	 : 175px;
 	top		 : -15px;
 }
 
@@ -48,4 +48,5 @@ h2 {
 	position 	 : relative
 	margin-right : 15%;
 	text-align   : center;
+	top			 : -25px;
 }
