@@ -4,7 +4,11 @@ body {
 	background-size : 100%;
 }
 
+h1 {
+	text-align : center;
+}
+
 .me {
-	height : 200px;
-	width  : 100px;
+	height : 250px;
+	width  : 340px;
 }
