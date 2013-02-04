@@ -2,6 +2,8 @@ body {
 	color: #ffffff;
 	background-color: #99cccc;
 	background-size : 100%;
+	margin-left 	: 5%
+	margin-right 	: 5%
 }
 
 h1 {
@@ -17,8 +19,7 @@ h2 {
 	position : relative;	
 	height   : 200px;
 	width    : 275px;
-	left	 : 25px;
-	top 	 : -50px;
+	top 	 : -40px;
 }
 
 .navbar {
@@ -33,16 +34,16 @@ h2 {
 .bio {
 	position : relative;
 	top      : 225px;
-	left  	 : 25px;
 }
 
 .resume {
 	position : relative;
 	left	 : 175px;
-	top		 : -25px;
+	top		 : -15px;
 }
 
 #contactinfo {
+	position 	 : relative
 	margin-right : 15%;
 	text-align   : center;
 }
