@@ -4,6 +4,7 @@ body {
 	background-size : 100%;
 }
 
-img {
-	size : 25%;
+.me {
+	height : 200px;
+	width  : 100px;
 }
