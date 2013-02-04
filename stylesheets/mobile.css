@@ -19,7 +19,8 @@ h2 {
 	position : relative;	
 	height   : 200px;
 	width    : 275px;
-	top 	 : -40px;
+	top 	 : -30px;
+	left 	 : -15px;
 }
 
 .navbar {
