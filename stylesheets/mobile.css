@@ -2,8 +2,8 @@ body {
 	color: #ffffff;
 	background-color: #99cccc;
 	background-size : 100%;
-	margin-left 	: 5%
-	margin-right 	: 5%
+	margin-left 	: 10%
+	margin-right 	: 10%
 }
 
 h1 {
@@ -34,11 +34,12 @@ h2 {
 .bio {
 	position : relative;
 	top      : 225px;
+	left 	 : 15 px;
 }
 
 .resume {
 	position : relative;
-	left	 : 175px;
+	left	 : 190px;
 	top		 : -15px;
 }
 
