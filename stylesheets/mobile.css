@@ -29,14 +29,15 @@ h2 {
 
 .bio {
 	position : relative;
-	top      : 150px;
+	top      : 225px;
 }
 
 .resume {
 	position : relative;
-	left	 : 100px;
+	left	 : 175px;
 }
 
 #contactinfo {
 	margin-right : 15%;
+	text-align   : center;
 }
