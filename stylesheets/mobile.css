@@ -14,8 +14,11 @@ h2 {
 }
 
 .me {
-	height : 200px;
-	width  : 275px;
+	position : relative;	
+	height   : 200px;
+	width    : 275px;
+	left	 : 25px;
+	top 	 : -50px;
 }
 
 .navbar {
@@ -30,11 +33,13 @@ h2 {
 .bio {
 	position : relative;
 	top      : 225px;
+	left  	 : 25px;
 }
 
 .resume {
 	position : relative;
 	left	 : 175px;
+	top		 : -25px;
 }
 
 #contactinfo {
