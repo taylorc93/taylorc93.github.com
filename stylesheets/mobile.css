@@ -1,6 +1,9 @@
 body {
 	color: #ffffff;
-	background-image: URL("../images/background.jpg");
+	background-color: #99ff99;
 	background-size : 100%;
 }
 
+img {
+	size : 25%;
+}
