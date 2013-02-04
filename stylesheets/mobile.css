@@ -28,13 +28,15 @@ h2 {
 }
 
 .bio {
-
+	position : relative;
+	top      : 150px;
 }
 
 .resume {
-
+	position : relative;
+	left	 : 100px;
 }
 
 #contactinfo {
-	margin-right : 20%;
+	margin-right : 15%;
 }
