@@ -1,21 +1,21 @@
-function init(){
-	var x = $.cookie("email");
-	var y = $.cookie("pass");
-	
-	if ((x != null) && (y != null)){
-		$.cookie("user", x);
-		$.ajax({
-			type: 'POST',
-			url: 'http://rocky-reaches-7172.herokuapp.com/login.json', 
-			data: {'email': x, 'password': y},
-			success: function(data){
-				if (data = "true"){
-					window.location = "mappage.html";
-				}
-			}
-		});
-	}
-}
+// function init(){
+// 	var x = $.cookie("email");
+// 	var y = $.cookie("pass");
+// 	
+// 	if ((x != null) && (y != null)){
+// 		$.cookie("user", x);
+// 		$.ajax({
+// 			type: 'POST',
+// 			url: 'http://rocky-reaches-7172.herokuapp.com/login.json', 
+// 			data: {'email': x, 'password': y},
+// 			success: function(data){
+// 				if (data = "true"){
+// 					window.location = "mappage.html";
+// 				}
+// 			}
+// 		});
+// 	}
+// }
 
 function Login() {
 	email=document.getElementById("emaillog").value;

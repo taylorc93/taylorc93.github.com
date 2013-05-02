@@ -15,11 +15,29 @@
 		<script src="js/jquery.cookie.js"></script>
     <script src="js/post.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="js/index.js"></script>
     <script src="js/cookie.js"></script>
   </head>
 
-  <body onload="init()">
+  <body>
+  <script>
+		var x = $.cookie("email");
+		var y = $.cookie("pass");
+		
+		if ((x != null) && (y != null)){
+			$.cookie("user", x);
+			$.ajax({
+				type: 'POST',
+				url: 'http://rocky-reaches-7172.herokuapp.com/login.json', 
+				data: {'email': x, 'password': y},
+				success: function(data){
+					if (data = "true"){
+						window.location = "mappage.html";
+					}
+				}
+			});
+		}
+  </script>
+  
   <div class="masthead">
 		<div class="masthead-inner">
     	<h1 class="text-center header"> Jumbo <span class="brown"> Park </span></h1>
