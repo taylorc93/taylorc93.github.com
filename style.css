@@ -1,0 +1,12 @@
+body{
+	background-color: #993131;
+	background-image: url(http://www.transparenttextures.com/patterns/black-paper.png);
+
+
+
+	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.row{
+	background-color: white;
+}
