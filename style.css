@@ -7,3 +7,7 @@ body{
 .row{
 	background-color: white;
 }
+
+.top-nav{
+	padding-top: 2rem;
+}
